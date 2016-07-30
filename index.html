@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Prueba Movivan</title>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat" type="text/css">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<ul class="slide-box" id="todo">
+			<li>
+				<input type="radio" id="rojo" name="select" checked>
+				<label for="rojo"></label>
+				<div id="red" class="slider">
+					<img src="iphone.png" alt="iphone" class="phone">
+					<div class="phone-image">
+						<img src="frame-1.gif" class="imagen">
+					</div>
+					<div class="box-text">
+						<h4>Title 1</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<input type="radio" id="verde" name="select">
+				<label for="verde"></label>
+				<div id="green" class="slider">
+					<img src="iphone.png" alt="iphone" class="phone">
+					<div class="phone-image">
+						<img src="frame-2.gif" class="imagen">
+					</div>
+					<div class="box-text">
+						<h4>Title 2</h4>
+						<p>Nulla dolores odit accusamus, exercitationem sunt expedita earum, dolorem suscipit? Atque dicta animi at culpa obcaecati.</p>
+					</div>
+				</div>
+			</li>
+			<li>
+				<input type="radio" id="gris" name="select">
+				<label for="gris"></label>
+				<div id="gray" class="slider text-center">
+					<div class="container">
+						<h4 class="user-title">Usuarios</h4>
+						<span>Ingresar:</span>
+						<form class="form-inline">
+						  <div class="form-group">
+						    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+						    <input type="text" class="form-control" id="exampleInputEmail3" placeholder="Nombre">
+						  </div>
+						  <div class="form-group">
+						    <label class="sr-only" for="exampleInputPassword3">Password</label>
+						    <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Contraseña">
+						  </div>
+						  <button type="submit" class="btn btn-success">Sign in</button>
+						</form>
+						<p class="ingresa">Ingresa datos del nuevo usuario:</p>
+						<form class="form-new">
+			              <div class="form-group">
+			                <input type="text" placeholder="Nombre *" class="form-control">
+			              </div>
+			              <div class="form-group">
+			                <input type="text" placeholder="Apellidos *" class="form-control">
+			              </div>
+			              <div class="form-group">
+			                <input type="text" placeholder="DNI *" class="form-control">
+			              </div>
+			              <div class="form-group">
+			                <input type="tel" placeholder="Teléfono*" class="form-control">
+			              </div>
+			              <div class="form-group">
+			                <input type="text" placeholder="Dirección *" class="form-control">
+			              </div>
+			              <div class="form-group">
+			                <input type="password" placeholder="Contraseña *" class="form-control">
+			              </div>
+			            </form>
+			            <button id="btn" type="button" class="btn btn-danger">Crear Usuario</button>
+					</div>
+				</div>
+			</li>
+		</ul>	
+
+		<script src="js/jquery.js" ></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js" ></script>
+	</body>
+</html>

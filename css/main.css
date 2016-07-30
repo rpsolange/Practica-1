@@ -1,0 +1,114 @@
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+	font-family: 'Montserrat', sans-serif;
+}
+html, body{
+	overflow: hidden;
+}
+
+#red{
+	background-color: #DD3C43;
+}
+#green{
+	background-color: #13DF81;
+}
+#gray{
+	background-color: rgba(49, 112, 143, 0.54);
+}
+.phone{
+	position: fixed;
+	top: 33px;
+    left: 265px;
+    z-index: 10;
+}
+.imagen{
+	position: fixed;
+    left: 346px;
+    top: 109px;
+    z-index: 20;
+}
+
+.box-text{
+	padding: 10% 5%;
+	width: 430px;
+	margin-left: 50%;
+}
+h4{
+	color: rgba(245, 245, 245, 0.62);
+	text-transform: uppercase;
+}
+p{
+	color: black;
+	font-size: 1.5em;
+	font-weight: lighter;
+}
+
+.slide-box{
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+.slider{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	transition: all 0.7s;
+}
+li{
+	list-style-type: none;
+}
+
+li input[type="radio"]{
+	display: none;
+}
+
+li input[type="radio"]:checked ~ .slider{
+	opacity: 1;
+}
+
+li input[type="radio"]+label{
+	width: 8px;
+	height: 8px;
+	background-color: rgba(255, 255, 255, 0.7);
+	position: relative;
+	display: block;
+	border-radius: 50%;
+	z-index: 50;
+	left: 90%;
+    top: 290px;
+    cursor: pointer;
+}
+
+li input[type="radio"]:checked+label{
+	width: 10px;
+	height: 10px;
+	background-color: white; 
+}
+
+.user-box{
+	margin: 2%;
+	width: 40%;
+	display: inline-block;
+}
+
+.user-title{
+	margin: 4% 0;
+}
+
+.form-inline{
+	display: inline-block;
+}
+
+.ingresa{
+	margin: 5% 0 2%;
+}
+
+.form-new{
+	width: 350px;
+	margin: auto;
+}
